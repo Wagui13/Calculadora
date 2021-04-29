@@ -1,0 +1,65 @@
+body{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+.container{
+display:flex;
+justify-content:center;
+align-items: center;
+border:1px solid;
+border-color: lightgray;
+height: 450px;
+background-color: lightgray; 
+border-radius: 20px;
+}
+.containerVisor{
+    display:flex;
+    align-items: center;
+    border:1px solid;
+    border-color:white;
+    height:40px;
+    margin-top:27px;
+    background-color:white;
+    border-radius:10px; 
+    color:gray;
+}
+.containerNumbers{
+  display:flex;
+  margin-bottom: 20px;
+  justify-content:center;
+  
+}
+.button{
+display:flex;
+border:1px solid;
+border-color:gray;
+background-color:gray;
+align-items: center;
+justify-content: center;
+height:50px;
+margin-top:5px;
+margin-right:10px;
+border-radius:5px;
+color:white;
+cursor:pointer;
+}
+.buttonOperador{
+display:flex;
+Background-color: White;
+color: gray;
+margin-right:0px;
+border-color:white;
+}
+.butonResult{
+display:flex;
+background-color:black;
+color: white;
+}
+
+.buttonApagar{
+  display:flex;
+  height: 37px;
+  background-color: rgba(124, 11, 11, 0.834);
+  border-color:rgba(124, 11, 11, 0.834);
+}
